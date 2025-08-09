@@ -31,8 +31,8 @@ export default function RootLayout({
       </head>
 
       <body>
-        <div className="bg-light">
-          {/* <Header /> */}
+        <div className="bg-light flex flex-col gap-24">
+          <Header type="home" />
           {children}
         </div>
       </body>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Container } from "../components/container";
 import { Hero, List } from "../components/theme";
 import Title from "../components/title";
 import ListElem from "../components/list_elem";
@@ -13,6 +12,15 @@ import { Project, Slide, Timeline } from "../data/notion";
 async function MakeList() {
   const ListArr = await Project();
   return ListArr.map((item: any) => ListElem(item));
+}
+
+export function Container(props: any) {
+  const { type = "light", size = "m", ...rest } = props;
+  return (
+    <div className={`bg-${type} lib-grid py-8`}>
+      <div className={`lib-grid-${size}`} {...rest} />
+    </div>
+  );
 }
 
 async function MakeSlide() {
@@ -68,7 +76,7 @@ async function MakeTimelineGuide(tlData: any) {
 }
 
 export default function Home() {
-  const tlData = GetTimeline();
+  // const tlData = GetTimeline();
 
   return (
     <div className="page pb-32">
@@ -141,7 +149,7 @@ export default function Home() {
       <Container size="m">
         <Title header="프로젝트" subheader="Project" />
         <p className="text-xl">생활 속의 불편함을 소프트웨어로 해결합니다</p>
-        <div className="flex flex-col mt-16 gap-8">{MakeList()}</div>
+        {/* <div className="flex flex-col mt-16 gap-8">{MakeList()}</div> */}
       </Container>
 
       <Container size="xl">
@@ -151,7 +159,7 @@ export default function Home() {
             발표를 통해 공유한 지식들을 정리해두었습니다
           </p>
         </Container>
-        <div className="mt-8 gap-8 slide-container">{MakeSlide()}</div>
+        {/* <div className="mt-8 gap-8 slide-container">{MakeSlide()}</div> */}
       </Container>
 
       <Contact></Contact>

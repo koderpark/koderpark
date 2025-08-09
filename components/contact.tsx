@@ -112,7 +112,7 @@ function pillBlog() {
   );
 }
 
-export default async function Contact() {
+export default function Contact() {
   return (
     <List>
       <Title header="연락처" subheader="Contact" />
