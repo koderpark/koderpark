@@ -24,9 +24,9 @@
 
 - 2025 UCPC Finalist, 54th
 - 2023 ICPC Seoul Regional HM, 53rd - Team "KookBab"
-- 국민대학교 소프트웨어융합대학 과동아리 KPSC 전 회장 ( 2023, 2024 )  
-- GDGoC Kookmin Organizer ( Core Member )  
-- 소프트웨어 마에스트로 15기  
+- 국민대학교 소프트웨어융합대학 과동아리 KPSC 전 회장 ( in 2023, 2024 )  
+- GDGoC Kookmin Organizer ( Core Member ) ( in 2024 )
+- 소프트웨어 마에스트로 15기
 
 # Previous Achievements
 <details>
