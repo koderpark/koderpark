@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from "./components/header";
+import Hero from "./components/hero";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +11,9 @@ function App() {
   return (
     <div className="w-screen h-screen bg-slate-100">
       <Header />
+      <div className="h-12" />{" "}
+      {/* Creates space (48px) between header and Hero */}
+      <Hero />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
