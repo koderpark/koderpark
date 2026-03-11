@@ -3,13 +3,13 @@
 {
   "Name/Nickname" : ["박성훈", "Koderpark"],
   "Bio" : [
-    "국민대학교 소프트웨어학부 23학번, 현재 휴학후 보충역 산업기능요원 병역특례 준비중입니다.",
+    "Backend Software Engineer at Codeit (보충역 산업기능요원 복무중)",
     "코더빡으로 불러주시면 됩니다."
   ],
   "Interests" : [
-    "Problem Solving / Competitive Programming",
     "Backend SW Engineering",
     "Homelabbing - Server Infrastructure",
+    "Problem Solving / Competitive Programming",
     "Making Something (Tinkering, Soldering, Etc...)"
   ],
   "Education" : {
@@ -25,8 +25,8 @@
 - 2025 UCPC Finalist, 54th
 - 2023 ICPC Seoul Regional HM, 53rd - Team "KookBab"
 - 국민대학교 소프트웨어융합대학 과동아리 KPSC 전 회장 ( in 2023, 2024 )  
-- GDGoC Kookmin Organizer ( Core Member ) ( in 2024 )
-- 소프트웨어 마에스트로 15기
+- GDGoC Kookmin Organizer - Core Member ( in 2024 )
+- 소프트웨어 마에스트로 15기 수료
 
 # Previous Achievements
 <details>
